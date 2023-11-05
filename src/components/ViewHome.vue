@@ -18,22 +18,22 @@
         <div class="bg"></div>
     </div>
     <div class="container-fluid corpo"  :class="{ 'corpo-sticky': isSticky }"  >
-        <div class="row justify-content-center">
+        <section class="row justify-content-center">
             <div class="col-10 " id="quemsoueu">
                 <ViewQuemSoueu></ViewQuemSoueu>
             </div>
-        </div>
-         <div class="row justify-content-center">
+        </section>
+         <section class="row justify-content-center">
             <div class="col-10 " id="oquefaco">
                 <ViewOquefaco></ViewOquefaco>
             </div>
-        </div>
+        </section>
         
-        <div class="row justify-content-center">
+        <section class="row justify-content-center">
             <div class="col-10 " id="hobbies">
                 <ViewHobbies></ViewHobbies>
             </div>
-        </div>
+        </section>
       
 
     </div>
