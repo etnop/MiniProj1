@@ -37,12 +37,13 @@
       
 
     </div>
-    
+    <ViewRodape></ViewRodape>
 </template>
 <script>
 import ViewQuemSoueu from './ViewQuemSoueu.vue';
 import ViewHobbies from './ViewHobbies.vue';
 import ViewOquefaco from './ViewOquefaco.vue';
+import ViewRodape from './ViewRodape.vue';
 
 
 export default {
@@ -51,7 +52,7 @@ export default {
         ViewQuemSoueu,
         ViewHobbies,
         ViewOquefaco,
-
+        ViewRodape
 
     },
     data() {
